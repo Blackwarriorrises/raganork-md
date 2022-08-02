@@ -10,9 +10,10 @@ module.exports = {
     VERSION: 'V 2.0.1',
     ALIVE: process.env.ALIVE || "https://i.imgur.com/KCnoMM2.jpg Hey {sender}, I'm alive \n Uptime: {uptime}",
     BLOCK_CHAT: process.env.BLOCK_CHAT || '',
-    ALWAYS_ONLINE: convertToBool(process.env.ALWAYS_ONLINE) || true,
+    ALWAYS_ONLINE: convertToBool(process.env.ALWAYS_ONLINE) || false,
     READ_MESSAGES: convertToBool(process.env.READ_MESSAGES) || false,
     PMB_VAR: convertToBool(process.env.PMB_VAR) || false,
+    DIS_PM: convertToBool(process.env.DIS_PM) || false,
     PMB: process.env.PMB || '*Personal messages not allowed. Blocking you!*',
     READ_COMMAND: convertToBool(process.env.READ_COMMAND) || true,
     USERNAME: process.env.USERNAME || '',
@@ -42,6 +43,6 @@ module.exports = {
     SUDO: process.env.SUDO || '916282344739,0',
     LANGUAGE: process.env.LANGUAGE || 'english',
     DEBUG: DEBUG,
-    ACR_A: "4b64f4e5401d1380e50b30d526def287",
-    ACR_S: "uSVrKResE7wF4d6A1dtqvPWTTy3rBp3YjldsJSCh"
+    ACR_A: "ff489a0160188cf5f0750eaf486eee74",
+    ACR_S: "ytu3AdkCu7fkRVuENhXxs9jsOW4YJtDXimAWMpJp"
     };
